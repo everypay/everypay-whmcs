@@ -47,7 +47,7 @@ $converted_amount = 100 * $converted_amount;
 $success = true;
 $error = "";
 
-try {
+try { 
 
     $theURL = "https://" . ($params['mode'] == 'LIVE' ? '' : 'sandbox-') 
              . "api.everypay.gr/payments";

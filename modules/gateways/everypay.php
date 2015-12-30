@@ -21,7 +21,7 @@ function everypay_link($params)
     $order_id = $params['invoiceid'];
     $description = $params["description"];  
     
-    $amount = $params['amount'];    
+    $amount = $params['amount'];
     
     $currency = getCurrency();
     # Check if amount is EURO, convert if not.     

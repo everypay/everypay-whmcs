@@ -1,14 +1,7 @@
-# Ignore all directories, and all sub-directories, and it's contents:
-*/*
+#Ignore all
+*
 
-#Now ignore all files in the current directory 
-#(This fails to ignore files without a ".", for example 
-#'file.txt' works, but 
-#'file' doesn't):
-*.*
-
-#Only Include these specific directories and subdirectories:
+#Only Include whatever has everypay in filename:
 !.gitignore
 !README.md
-!modules/gateways/everypay.php
-!modules/gateways/callback/everypay.php
+!*everypay*

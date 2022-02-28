@@ -1,5 +1,5 @@
 <?php
-# Required File Includes
+
 require_once __DIR__ . '/../../../init.php';
 App::load_function('gateway');
 App::load_function('invoice');

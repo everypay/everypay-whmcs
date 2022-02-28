@@ -1,9 +1,9 @@
 <?php
 # Required File Includes
-include("../../../dbconnect.php");
-include("../../../includes/functions.php");
-include("../../../includes/gatewayfunctions.php");
-include("../../../includes/invoicefunctions.php");
+require_once __DIR__ . '/../../../init.php';
+App::load_function('gateway');
+App::load_function('invoice');
+
 
 $gatewaymodule = "everypay";
 
